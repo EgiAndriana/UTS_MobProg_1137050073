@@ -1,0 +1,42 @@
+1. Untuk menampilkan gambar
+   <ImageView
+         android:src="" />
+
+2. Attribut Xml
+
+3. CamelCase
+   iLikePracticeSetsTheBest
+
+4. View Group
+
+5. <RelativeLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"> 
+       <Button
+       android:id="@+id/lyla_text_view"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="24sp"
+       android:text="Click Me"
+
+       android:layout_alignParentBottom="true"	 	
+       android:layout_centerHorizontal="true" />
+  
+       </RelativeLayout>
+
+   *agar posisi button dibawah tengah menggunakan : 
+   - android:layout_alignParentBottom="true"
+   - android:layout_centerHorizontal="true"
+
+6. Keduanya menggunakan linear layout, yang membedakannya terletak pada orientationnya.
+   kode 1 menggunakan orientation vertical, jika menggunakan orientaion vertical maka
+   peletakan elemen akan terurut kebawah. Sedangkan kode 2 menggunakan orientaion horizontal,
+   maka peletakan elemennya akan terurut ke samping
+
+
+   
+
+   
+
+	
